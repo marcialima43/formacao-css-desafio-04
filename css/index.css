@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url('../assets/image/Header Background.png');
+    img{
+    max-width: 100%;
+  }
+}
+.content-header{
+  width: 100%;
+  padding-top: 69px;
+  padding-bottom: 70px;
+}
+.content-text{
+margin: auto;
+padding-left: 30px;
+padding-right: 30px;
+}
+.content-header h1{
+  font-family: "Luckiest Guy", cursive;
+  color: #fff;
+  font-size: 32px;
+}
+.content-header p{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.content-buttons{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /*margin-top: 32px;*/
+  margin:  32px auto;
+ 
+}
+.content-buttons button{
+  width: 50%;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+}
+.content-buttons button:last-child{
+  background-color: #23272A;
+  color: #FFFFFF;
+}
+section .container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px 24px;
+}
+.content-text h2{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #23272A;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+section .conexao{
+  font-family: "luckiest Guy", cursive;
+  }
+
+.content-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-image img{
+  max-width: 100%;
+  height: auto; 
+}
+footer{
+  background-color: #23272A;
+  padding: 40px 24px;
+  text-align: center;
+}
+@media screen and (min-width: 720px) {
+  .content-header{
+    width: 80%;
+    margin: auto;
+  
+  }
+  .content-buttons{
+     display: flex;
+    flex-direction: row;
+  }
+  .content-buttons button{
+    width: 100%;
+  }
+  section .container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 40px;
+    margin: 0;  
+  }
+  section .reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .content-text{
+    width: 50%;
+  }
+  .content-image{
+    width: 50%;
+  }
+    section .column{
+    flex-direction: column;
+  }
+}
